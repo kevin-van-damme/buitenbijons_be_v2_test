@@ -8,15 +8,15 @@ composer.lock
 /web/themes/contrib/
 
 # Ignore configuration files
-/web/sites/*/settings*.php
-/web/sites/*/services*.yml
-/web/sites/default/settings.php
-/web/sites/default/services.yml
+# /web/sites/*/settings*.php
+# /web/sites/*/services*.yml
+# /web/sites/default/settings.php
+# /web/sites/default/services.yml
 
 # Ignore user-generated content
-/web/sites/*/files/
-/web/sites/*/private/
-/web/sites/default/files/
+# /web/sites/*/files/
+# /web/sites/*/private/
+# /web/sites/default/files/
 
 # Ignore caches and temporary files
 /web/sites/*/cache/
@@ -26,9 +26,9 @@ composer.lock
 /tmp/
 
 # Ignore Next.js files (if in this repo)
-/node_modules/
-/.next/
-/out/
+# /node_modules/
+# /.next/
+# /out/
 
 # Ignore logs and Drush files
 *.log
