@@ -1,0 +1,8 @@
+my_register.register:
+  path: "/user/register"
+  defaults:
+    _controller: '\Drupal\my_register\Controller\RegisterController::register'
+    _format: "json"
+  methods: [POST]
+  requirements:
+    _access: "TRUE"
