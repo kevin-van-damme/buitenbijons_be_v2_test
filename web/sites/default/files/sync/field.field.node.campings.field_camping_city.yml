@@ -1,0 +1,29 @@
+uuid: c02aca19-efcf-464b-b648-0111618d076e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_city
+    - node.type.campings
+    - taxonomy.vocabulary.locations_belgium
+id: node.campings.field_camping_city
+field_name: field_camping_city
+entity_type: node
+bundle: campings
+label: camping_city
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      locations_belgium: locations_belgium
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

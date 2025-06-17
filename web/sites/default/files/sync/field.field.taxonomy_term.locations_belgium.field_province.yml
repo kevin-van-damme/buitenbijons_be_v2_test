@@ -1,0 +1,19 @@
+uuid: 1440aeb0-2a20-431e-963f-e101df38e6b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_province
+    - taxonomy.vocabulary.locations_belgium
+id: taxonomy_term.locations_belgium.field_province
+field_name: field_province
+entity_type: taxonomy_term
+bundle: locations_belgium
+label: province
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

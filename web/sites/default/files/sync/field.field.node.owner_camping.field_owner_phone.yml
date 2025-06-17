@@ -1,0 +1,19 @@
+uuid: 2f74e43e-438d-4b1a-9634-5ac1bba1ba2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner_phone
+    - node.type.owner_camping
+id: node.owner_camping.field_owner_phone
+field_name: field_owner_phone
+entity_type: node
+bundle: owner_camping
+label: owner_phone
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,38 @@
+uuid: 3ff499e7-1005-45d7-bacb-f02ac6d99d67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_owner_profile_picture
+    - node.type.owner_camping
+  module:
+    - image
+id: node.owner_camping.field_owner_profile_picture
+field_name: field_owner_profile_picture
+entity_type: node
+bundle: owner_camping
+label: owner_profile_picture
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: '5'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

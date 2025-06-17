@@ -1,0 +1,186 @@
+uuid: 8be3dc7e-f4b9-46e9-ba36-2f136097dc18
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.campings
+  module:
+    - jsonapi_defaults
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+id: node--campings
+disabled: false
+path: node/campings
+resourceType: node--campings
+resourceFields:
+  nid:
+    disabled: false
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  vid:
+    disabled: false
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: false
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: false
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: false
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  title:
+    disabled: false
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  promote:
+    disabled: false
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+  sticky:
+    disabled: false
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: false
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: false
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: false
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  field_camping_checkinout:
+    disabled: false
+    fieldName: field_camping_checkinout
+    publicName: field_camping_checkinout
+    enhancer:
+      id: ''
+  field_camping_city:
+    disabled: false
+    fieldName: field_camping_city
+    publicName: field_camping_city
+    enhancer:
+      id: ''
+  field_camping_country:
+    disabled: false
+    fieldName: field_camping_country
+    publicName: field_camping_country
+    enhancer:
+      id: ''
+  field_camping_description:
+    disabled: false
+    fieldName: field_camping_description
+    publicName: field_camping_description
+    enhancer:
+      id: ''
+  field_camping_image:
+    disabled: false
+    fieldName: field_camping_image
+    publicName: field_camping_image
+    enhancer:
+      id: url_link
+      settings:
+        absolute_url: 0
+  field_camping_location:
+    disabled: false
+    fieldName: field_camping_location
+    publicName: field_camping_location
+    enhancer:
+      id: ''
+  field_camping_price:
+    disabled: false
+    fieldName: field_camping_price
+    publicName: field_camping_price
+    enhancer:
+      id: ''
+  field_camping_rules:
+    disabled: false
+    fieldName: field_camping_rules
+    publicName: field_camping_rules
+    enhancer:
+      id: ''
+  field_owner_id:
+    disabled: false
+    fieldName: field_owner_id
+    publicName: field_owner_id
+    enhancer:
+      id: uuid_link

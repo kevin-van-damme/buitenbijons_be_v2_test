@@ -1,0 +1,19 @@
+uuid: eac1396e-65e7-43c4-9a3e-273bfc90c1ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_postal_code
+    - taxonomy.vocabulary.locations_belgium
+id: taxonomy_term.locations_belgium.field_postal_code
+field_name: field_postal_code
+entity_type: taxonomy_term
+bundle: locations_belgium
+label: postal_code
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

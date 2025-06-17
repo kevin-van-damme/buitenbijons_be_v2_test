@@ -1,0 +1,23 @@
+uuid: c139a183-87f5-472a-8f21-cb6f48ff6697
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_price
+    - node.type.campings
+id: node.campings.field_camping_price
+field_name: field_camping_price
+entity_type: node
+bundle: campings
+label: camping_price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: decimal

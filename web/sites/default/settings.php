@@ -90,16 +90,7 @@
  * ];
  * @endcode
  */
-$databases['default']['default'] = [
-  'database' => 'drupal11',
-  'username' => 'drupaluser',
-  'password' => 'admin1234',
-  'host' => '127.0.0.1',
-  'port' => '',
-  'driver' => 'mysql',
-  'prefix' => '',
-  'collation' => 'utf8mb4_general_ci',
-];
+$databases = [];
 
 /**
  * Customizing database settings.

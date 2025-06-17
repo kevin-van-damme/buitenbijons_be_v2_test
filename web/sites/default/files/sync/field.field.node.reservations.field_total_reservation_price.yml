@@ -1,0 +1,23 @@
+uuid: d214b690-bd37-4322-858f-6dafe4ed866c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_reservation_price
+    - node.type.reservations
+id: node.reservations.field_total_reservation_price
+field_name: field_total_reservation_price
+entity_type: node
+bundle: reservations
+label: total_reservation_price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: decimal

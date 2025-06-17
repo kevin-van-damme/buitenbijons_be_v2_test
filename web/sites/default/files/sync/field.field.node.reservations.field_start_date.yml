@@ -1,0 +1,21 @@
+uuid: 5e44bc12-1c13-48c1-a043-bb523c91c3b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date
+    - node.type.reservations
+  module:
+    - datetime
+id: node.reservations.field_start_date
+field_name: field_start_date
+entity_type: node
+bundle: reservations
+label: start_date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 113f5190-34c9-4dea-b728-e34bf533fbc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.reservations
+  module:
+    - datetime
+id: node.reservations.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: reservations
+label: end_date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

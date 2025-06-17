@@ -1,0 +1,23 @@
+uuid: 37ef05a2-eafd-4c10-9021-72cc658b7066
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_longitude
+    - taxonomy.vocabulary.locations_belgium
+id: taxonomy_term.locations_belgium.field_longitude
+field_name: field_longitude
+entity_type: taxonomy_term
+bundle: locations_belgium
+label: longitude
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

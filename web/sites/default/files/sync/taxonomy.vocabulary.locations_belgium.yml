@@ -1,0 +1,9 @@
+uuid: b5efd8ea-67a1-4ec7-b3da-0d3a345a689e
+langcode: en
+status: true
+dependencies: {  }
+name: locations_belgium
+vid: locations_belgium
+description: 'all Locations in Belgium'
+weight: 0
+new_revision: false

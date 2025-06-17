@@ -1,0 +1,21 @@
+uuid: 68a2d0cf-a8bb-4a61-9fc5-3d0346a6c860
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_owner_phone
+field_name: field_owner_phone
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 618815a1-1ef7-4c58-a576-9037505e7868
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_camping_location
+    - node.type.campings
+  module:
+    - geofield
+id: node.campings.field_camping_location
+field_name: field_camping_location
+entity_type: node
+bundle: campings
+label: camping_location
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield
