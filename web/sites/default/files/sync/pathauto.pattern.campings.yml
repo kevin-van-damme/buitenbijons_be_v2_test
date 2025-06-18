@@ -1,0 +1,22 @@
+uuid: 9e183e5f-822d-4006-bd25-046e454df6c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: campings
+label: campings
+type: 'canonical_entities:node'
+pattern: '/node/[node:title]'
+selection_criteria:
+  b66c9ae3-6b8e-4b37-87b5-f7683bd0969e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b66c9ae3-6b8e-4b37-87b5-f7683bd0969e
+    context_mapping:
+      node: node
+    bundles:
+      campings: campings
+selection_logic: and
+weight: -5
+relationships: {  }

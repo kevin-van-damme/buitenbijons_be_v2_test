@@ -26,6 +26,9 @@
         "drupal/jsonapi_include": "^1.8",
         "drupal/jsonapi_views": "^1.1",
         "drupal/leaflet": "10.2.x-dev@dev",
+        "drupal/pathauto": "^1.13",
+        "drupal/restui": "^1.22",
+        "drupal/simple_oauth": "^6.0",
         "drush/drush": "^13.6"
     },
     "conflict": {
