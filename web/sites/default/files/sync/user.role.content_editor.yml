@@ -28,6 +28,7 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
+  - 'administer users'
   - 'create article content'
   - 'create page content'
   - 'create terms in tags'
